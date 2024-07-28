@@ -39,11 +39,17 @@
     background-image: var(--transparency-1);
 }
 
-/* transparency for channels and members list and private channels and left side of settings*/
-#app-mount .container_ee69e0, .privateChannels_f0963d, .app_bd26cc .standardSidebarView_c25c6d, .app_bd26cc .container_c2739c {
+/* Transparency and removal of border/box-shadow for channels and members list */
+#app-mount .container_ee69e0, 
+.privateChannels_f0963d, 
+.app_bd26cc .standardSidebarView_c25c6d, 
+.app_bd26cc .container_c2739c {
     background: transparent;
-    background-image: var(--transparency-2); 
+    background-image: var(--transparency-2);
+    border: none !important;
+    box-shadow: none !important;
 }
+
 .theme-dark .panels_a4d4d9, .theme-light .panels_a4d4d9 {
     background: var(--transparency-2);
 }
