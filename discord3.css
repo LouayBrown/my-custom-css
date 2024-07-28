@@ -209,48 +209,45 @@
 
 
     /*Channels*/
-        #app-mount .containerDefault_a08117 {
-            background-color: var(--primary3-colour); 
-            height: 30px; text-align: center; 
-            border-radius: 10px; 
-            padding: 5px 5px 0 5px;
-        }
-        #app-mount .activityPanel_a4d4d9 {
-            background-image: var(--transparency-1); 
-            background-color: rgba(0,0,0,0); 
-            margin-bottom: 0;
-        }
+#app-mount .containerDefault_a08117,
+#app-mount .activityPanel_a4d4d9,
+#app-mount .containerDefault_f6f816,
+#app-mount .mention_c10249,
+#app-mount .mentionsBadge_e2a798 .numberBadge_df8943,
+#app-mount .unreadBar_c43953,
+#app-mount .autocomplete_f23da8,
+#app-mount .wrapper_d8bfb3,
+#app-mount .containerDefault_f6f816 .modeMuted_d8bfb3 div.wrapper_d8bfb3,
+#app-mount .actionBar_df1eaf {
+    background: transparent;
+    background-color: transparent;
+    background-image: none;
+    border: none !important;
+    box-shadow: none !important;
+}
 
-        #app-mount .containerDefault_a08117 {margin-top: 15px;}
-        #app-mount .containerDefault_f6f816 {margin-right: 10px;}
+/* Text Channels Specific */
+#app-mount .containerDefault_f6f816 .wrapper_d8bfb3:hover,
+#app-mount .containerDefault_f6f816.selected_f6f816 .wrapper_d8bfb3,
+#app-mount .wrapper_d8bfb3,
+#app-mount .wrapper_d8bfb3:hover,
+#app-mount .containerDefault_f6f816.selected_f6f816 .wrapper_d8bfb3,
+#app-mount .containerDefault_f6f816 .modeMuted_d8bfb3 div.wrapper_d8bfb3,
+#app-mount .actionBar_df1eaf {
+    border: none !important;
+    box-shadow: none !important;
+}
 
-        #app-mount .mention_c10249,
-        #app-mount .mentionsBadge_e2a798 .numberBadge_df8943 {
-            background-color: var(--primary1-colour)!important;
-        }
+/* Ensuring additional elements have no border/box-shadow */
+#app-mount .containerDefault_a08117,
+#app-mount .activityPanel_a4d4d9,
+#app-mount .containerDefault_f6f816 {
+    border: none !important;
+    box-shadow: none !important;
+}
 
-        #app-mount .unreadBar_c43953 {background-color: var(--secondary2-colour);}
 
-        #app-mount .autocomplete_f23da8 {background-color: var(--secondary3-colour);}
-
-        /*Text Channels*/
-            #app-mount .containerDefault_f6f816 .wrapper_d8bfb3:hover {width: 100%;}
-            #app-mount .containerDefault_f6f816.selected_f6f816 .wrapper_d8bfb3 {width: 100%;}
-            #app-mount .wrapper_d8bfb3 { background-color: var(--secondary1-colour) }
-            #app-mount .wrapper_d8bfb3:hover,
-            #app-mount .containerDefault_f6f816.selected_f6f816  .wrapper_d8bfb3 { background-color: var(--secondary2-colour)}
-            #app-mount .containerDefault_f6f816 .wrapper_d8bfb3{
-                width: 190px; 
-                transition: width 0.2s; 
-                transition-timing-function: ease-in-out; 
-            }
-
-            #app-mount .containerDefault_f6f816 .modeMuted_d8bfb3 div.wrapper_d8bfb3 {background-color: var(--primary3-colour);}
-            
-            #app-mount .actionBar_df1eaf {
-                background-color: var(--secondary3-colour); 
-                border-radius: 5px;
-            }
+        
 
         /*Voice Channels*/
             #app-mount .containerDefault_f6f816 .modeConnected_d8bfb3 div.wrapper_d8bfb3 {width: 100%; background-color: var(--secondary2-colour);}
