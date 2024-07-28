@@ -321,112 +321,125 @@
                 }
 
     /*Messages*/
-        #app-mount code {background-color: var(--secondary1-colour)}
+#app-mount code {background-color: var(--secondary1-colour)}
 
-        #app-mount .mention,
-        #app-mount .channelMention .name_b52c3f {
-            background-color: var(--primary3-colour); 
-            color: var(--primary1-colour);
-        }
-        #app-mount .mentioned_d5deea {background-color: var(--primary3-colour);}
-        #app-mount .mentioned_d5deea .contents-2mQqc9, 
-        #app-mount .mentioned_d5deea .container-1ov-mD,
-        #app-mount .channelMention {
-            background-color: var(--primary3-colour);
-        }
-        #app-mount .mentioned_d5deea:before {
-            background: var(--primary1-colour); 
-            width: 3px;
-        }
+#app-mount .mention,
+#app-mount .channelMention .name_b52c3f {
+    background-color: var(--primary3-colour); 
+    color: var(--primary1-colour);
+}
+#app-mount .mentioned_d5deea {background-color: var(--primary3-colour);}
+#app-mount .mentioned_d5deea .contents-2mQqc9, 
+#app-mount .mentioned_d5deea .container-1ov-mD,
+#app-mount .channelMention {
+    background-color: var(--primary3-colour);
+}
+#app-mount .mentioned_d5deea:before {
+    background: var(--primary1-colour); 
+    width: 3px;
+}
 
-        #app-mount .channelMention .channelWithIcon path {fill: var(--primary1-colour)}
+#app-mount .channelMention .channelWithIcon path {fill: var(--primary1-colour)}
 
-        #app-mount a[target="_blank"] {color: var(--primary1-colour);}
+#app-mount a[target="_blank"] {color: var(--primary1-colour);}
 
-        #app-mount .newMessagesBar_cf58b5 {background-color: var(--primary1-colour)} 
-        #app-mount .newMessagesBar_cf58b5:hover {background-color: var(--primary2-colour);}
-        #app-mount .jumpToPresentBar_cf58b5 {background-color: var(--secondary3-colour);}
-        #app-mount .jumpToPresentBar_cf58b5:hover {background-color: var(--secondary2-colour);}
+#app-mount .newMessagesBar_cf58b5 {background-color: var(--primary1-colour)} 
+#app-mount .newMessagesBar_cf58b5:hover {background-color: var(--primary2-colour);}
+#app-mount .jumpToPresentBar_cf58b5 {background-color: var(--secondary3-colour);}
+#app-mount .jumpToPresentBar_cf58b5:hover {background-color: var(--secondary2-colour);}
 
-        #app-mount .message_d5deea {padding: 0px 48px 0px 72px;}
-        #app-mount .message_d5deea.cozyMessage_d5deea .container_b558d0,
-        #app-mount .message_d5deea.cozyMessage_d5deea .contents_ec86aa {
-            background-color: var(--secondary1-colour);
-            padding: 5px 0px 5px 20px;
-        }
+#app-mount .message_d5deea {padding: 0px 48px 0px 72px;}
+#app-mount .message_d5deea.cozyMessage_d5deea .container_b558d0,
+#app-mount .message_d5deea.cozyMessage_d5deea .contents_ec86aa {
+    background-color: var(--secondary1-colour);
+    padding: 5px 0px 5px 20px;
+}
 
-        #app-mount .message_d5deea.compact_ec86aa {padding-left: 0;}
-        #app-mount .message_d5deea.compact_ec86aa .contents_ec86aa {
-            background-color: var(--secondary1-colour);
-            padding: 5px 0px 5px 80px;
-            text-indent: 0;
-        }
-        #app-mount .message_d5deea.compact_ec86aa .container_b558d0 {
-            background-color: var(--secondary1-colour);
-            padding: 5px 0px 5px 52px;
-        }
+#app-mount .message_d5deea.compact_ec86aa {padding-left: 0;}
+#app-mount .message_d5deea.compact_ec86aa .contents_ec86aa {
+    background-color: var(--secondary1-colour);
+    padding: 5px 0px 5px 80px;
+    text-indent: 0;
+}
+#app-mount .message_d5deea.compact_ec86aa .container_b558d0 {
+    background-color: var(--secondary1-colour);
+    padding: 5px 0px 5px 52px;
+}
 
-        #app-mount .buttonContainer_ec86aa .wrapper_ef319f {
-            background-color: var(--secondary1-colour);
-            margin: 2px 20px 0px 0px;
-        }
-        #app-mount .hasReply_ec86aa .buttonContainer_ec86aa .wrapper_ef319f{ margin-top: 24px; }
+#app-mount .buttonContainer_ec86aa .wrapper_ef319f {
+    background-color: var(--secondary1-colour);
+    margin: 2px 20px 0px 0px;
+}
+#app-mount .hasReply_ec86aa .buttonContainer_ec86aa .wrapper_ef319f{ margin-top: 24px; }
 
-        /*Embeds*/
-            #app-mount .embedFull_ad0b71 {
-                background-color: var(--secondary1-colour); 
-                border-left: 4px solid;
-                border-right: 4px solid;
-                border-radius: 10px!important;
-            }
+/*Embeds*/
+#app-mount .embedFull_ad0b71 {
+    background-color: var(--secondary1-colour); 
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-radius: 10px!important;
+}
 
-        /*Media Player*/
-            #app-mount .unreadBar-3YD_k9 {background-color: var(--primary1-colour);}
+/*Media Player*/
+#app-mount .unreadBar-3YD_k9 {background-color: var(--primary1-colour);}
 
-            #app-mount .messageAttachment__5dae1 a[target="_blank"] {color: var(--primary2-colour);}
-            #app-mount .mediaBarProgress_f7877e,
-            #app-mount .mediaBarProgress_f7877e::before, 
-            #app-mount .mediaBarProgress_f7877e::after, 
-            #app-mount .mediaBarProgress_f7877e .mediaBarGrabber_f7877e{
-                background-color: var(--primary1-colour);
-            }
+#app-mount .messageAttachment__5dae1 a[target="_blank"] {color: var(--primary2-colour);}
+#app-mount .mediaBarProgress_f7877e,
+#app-mount .mediaBarProgress_f7877e::before, 
+#app-mount .mediaBarProgress_f7877e::after, 
+#app-mount .mediaBarProgress_f7877e .mediaBarGrabber_f7877e{
+    background-color: var(--primary1-colour);
+}
 
-        /*Discussions*/
-            #app-mount .chat_a7d72e .mainCard_a6d69a.header-1Uy0p6 {
-                background-color: var(--secondary3-colour);
-                border-radius: 10px 10px 0 0;
-            }
-            #app-mount .chat_a7d72e .headerRow-1MKoR- div[style*="max-height: 500px;"] {background-color: var(--secondary3-colour);}
-            #app-mount .chat_a7d72e .tagsContainer-2bBw1x {
-                background-color: var(--secondary3-colour);
-                border-radius: 0 0 10px 10px;
-                padding: 24px 0 15px 20px;
-            }
-            #app-mount .chat_a7d72e .matchingPostsRow_a6d69a {
-                background-color: var(--secondary2-colour);
-                border-radius: 0;
-            }
+/*Discussions*/
+#app-mount .chat_a7d72e .mainCard_a6d69a.header-1Uy0p6 {
+    background-color: var(--secondary3-colour);
+    border-radius: 10px 10px 0 0;
+}
+#app-mount .chat_a7d72e .headerRow-1MKoR- div[style*="max-height: 500px;"] {background-color: var(--secondary3-colour);}
+#app-mount .chat_a7d72e .tagsContainer-2bBw1x {
+    background-color: var(--secondary3-colour);
+    border-radius: 0 0 10px 10px;
+    padding: 24px 0 15px 20px;
+}
+#app-mount .chat_a7d72e .matchingPostsRow_a6d69a {
+    background-color: var(--secondary2-colour);
+    border-radius: 0;
+}
 
-            #app-mount .title_a7d72e,
-            #app-mount .chat_a7d72e .container_a6d69a {
-                background-color: transparent;
-            }
+#app-mount .title_a7d72e,
+#app-mount .chat_a7d72e .container_a6d69a {
+    background-color: transparent;
+}
 
-            #app-mount .container_d1c246 {
-                background-image: var(--transparency-3);
-            }
+#app-mount .container_d1c246 {
+    background-image: var(--transparency-3);
+}
 
-            #app-mount .chat_a7d72e .mainCard_a6d69a:hover,
-            #app-mount .chat_a7d72e .mainCard_a6d69a.isOpen-2OXbFs,
-            #app-mount .chat_a7d72e .mainCard_a6d69a.headerWithMatchingPosts-1lTrVT {
-                background-color: var(--secondary2-colour);
-            }
+#app-mount .chat_a7d72e .mainCard_a6d69a:hover,
+#app-mount .chat_a7d72e .mainCard_a6d69a.isOpen-2OXbFs,
+#app-mount .chat_a7d72e .mainCard_a6d69a.headerWithMatchingPosts-1lTrVT {
+    background-color: var(--secondary2-colour);
+}
 
-        /*Reactions*/
-            #app-mount .reactions_f61c73 .reactionMe_f61c73 {
-                background-color: var(--primary3-colour);
-                border-color: var(--primary1-colour);
-            }
+/*Reactions*/
+#app-mount .reactions_f61c73 .reactionMe_f61c73 {
+    background-color: var(--primary3-colour);
+    border-color: var(--primary1-colour);
+}
+
+/* Remove outline/shadow from sticker messages */
+#app-mount .messageStickerContainer,
+#app-mount .messageStickerContainer::before,
+#app-mount .messageStickerContainer::after,
+#app-mount .message-2qnXI6 .contents-2mQqc9,
+#app-mount .message-2qnXI6 .contents-2mQqc9::before,
+#app-mount .message-2qnXI6 .contents-2mQqc9::after {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 
 /*Server Members*/
     #app-mount .member_a31c43 .layout_e9f61e {
