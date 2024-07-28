@@ -53,33 +53,65 @@
 .theme-dark .panels_a4d4d9, .theme-light .panels_a4d4d9 {
     background: var(--transparency-2);
 }
-/* chat and top area and other secondary pages */
-.app_bd26cc .chat_a7d72e, .app_bd26cc .scrollableContainer_d0696b {
+/* General removal of outlines/shadows from sticker messages */
+#app-mount .message-2qnXI6 .contents-2mQqc9,
+#app-mount .message-2qnXI6 .contents-2mQqc9::before,
+#app-mount .message-2qnXI6 .contents-2mQqc9::after,
+#app-mount .messageContent-2qWWxC,
+#app-mount .messageContent-2qWWxC::before,
+#app-mount .messageContent-2qWWxC::after,
+#app-mount .container-2uJ6P5,
+#app-mount .container-2uJ6P5::before,
+#app-mount .container-2uJ6P5::after,
+#app-mount .markup-2BOw-j,
+#app-mount .markup-2BOw-j::before,
+#app-mount .markup-2BOw-j::after,
+#app-mount .messageStickerContainer,
+#app-mount .messageStickerContainer::before,
+#app-mount .messageStickerContainer::after,
+#app-mount .sticker-3FySSx,
+#app-mount .sticker-3FySSx::before,
+#app-mount .sticker-3FySSx::after {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Chat and top area and other secondary pages */
+.app_bd26cc .chat_a7d72e, 
+.app_bd26cc .scrollableContainer_d0696b {
     background: transparent;
     background-image: var(--transparency-3);
 }
-/* removing color from specific class */
+
+/* Removing color from specific class */
 .panels_a4d4d9 {
     background-color: transparent;
 }
-/* extra for transparency 3 special case */
-.themeDark-3Ap_7i, .app_bd26cc .chat_a7d72e {
+
+/* Extra for transparency 3 special case */
+.themeDark-3Ap_7i, 
+.app_bd26cc .chat_a7d72e {
     background-color: transparent;
     background-image: var(--transparency-3);
 }
+
 .typeWindows_a934d8 {
     background-image: var(--transparency-5);
 }
-/* removes margin from top area and adds it to the nav buttons + discord logo */
+
+/* Removes margin from top area and adds it to the nav buttons + Discord logo */
 .typeWindows_a934d8 {
     height: 21px;
     margin-top: 0px;
 }
-/* removes a border under better discord at channels */
+
+/* Removes a border under BetterDiscord at channels */
 .unread-1xRYoj {
-    display:none;
+    display: none;
 }
-/* fixes */
+
+/* Fixes */
 .theme-dark {
     --background-primary: none;
     --background-secondary: none;
